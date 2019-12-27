@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Spinner
+            android:id="@+id/layoutOkay"
+            android:layout_width="190dp"
+            android:layout_height="45dp"
+            android:entries="@array/country_arrays"
+            android:prompt="@string/country_prompt"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|bottom|start" />
+
+        <Button
+            android:id="@+id/layoutCancel"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical|bottom|end"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Interactive antiques</string>
+    <string name="detail">Developed by:
+                            ITMR Lab, IIIT Allahabad </string>
+    <string name="name">Welcome to Interactive antiques\n\n
+        Wait 6 seconds while you syncing with server\n\n
+        1. Click on Scan button to detect QR code.\n\n
+        2.Wait for 20 seconds it will load your model\n\n
+        3.Select animation,information and other options from below buttons.\n\n
+        4.wait 20 seconds for animation and three second for information.</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string name="PLAY">PLAY</string>
+    <string name="POP">Click Play to start the video...</string>
+    <string name="op">Click to listen !!!</string>
+
+    <string-array name="country_arrays">
+        <item>Animation</item>
+        <item>Information</item>
+        <!--<item>Model_animation</item>-->
+        <item>Save</item>
+    </string-array>
+</resources>

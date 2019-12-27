@@ -1,0 +1,3 @@
+1234567890,pot,https://s3.us-east-2.amazonaws.com/shubhampatre94/pot.zip
+1234567891,head,https://s3.us-east-2.amazonaws.com/shubhampatre94/head.zip
+1234567892,gun,https://s3.us-east-2.amazonaws.com/shubhampatre94/gun.zip
